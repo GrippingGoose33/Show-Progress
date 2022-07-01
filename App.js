@@ -4,7 +4,7 @@ import styles from './style';
 import ProgressBar from './ProgressBar';
 
 export default function App() {
-  const [progreess, setProgress] = useState(0);
+  const [progress, setProgress] = useState(0);
 
   useEffect(() => {
 
@@ -22,7 +22,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <ProgressBar progress={progress}/>
+      <ProgressBar progress={progress} label = {true}/>
     </View>
   );
 }
