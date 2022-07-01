@@ -7,4 +7,13 @@ export default StyleSheet.create({
         alignItems: 'center',
         backgroundColor: 'ghostwhite',
     },
+
+    progress: {
+        width: 170,
+    },
+
+    progressText: {
+        fontSize: 12,
+        textAlign: "center",
+    },
 })
